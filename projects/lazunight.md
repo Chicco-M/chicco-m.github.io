@@ -12,7 +12,7 @@ labels:
 summary: "A rhythm game I coordinated with a twelve-person volunteer team."
 ---
 
-<img class="img-fluid" src="../img/lazunight-header.jpg">
+<img class="img-fluid" src="../img/lazunight-header1.jpg">
 
 LazuNight Funkin' is a Friday Night Funkin' mod built on Psych Engine, made for LazuLight's first anniversary. It started as a three-person prototype and shipped six months later with twelve people on it: programmers, artists, and composers, all volunteering for this passion project. I directed and worked closely with each section.
 
