@@ -1,113 +1,162 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Chicco Marquez",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "picture": "https://github.com/chicco-m.png",
+    "email": "chiccoraymarquez@gmail.com",
+    "phone": "808-726-8268",
+    "website": "https://chicco-m.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa, and expect to graduate in Spring 2028. My work sits where software meets infrastructure: I build AI-assisted process automation for the Hawaii Department of Transportation's Harbors Division, and I maintained campus network hardware and diagnosed connectivity issues as a ResNet Support Specialist at UH Manoa.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "Chicco-M", "url": "http://github.com/chicco-m" },
+      { "network": "linkedin", "username": "Chicco Ray Marquez", "url": "http://linkedin.com/in/chicco-ray-marquez" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "AI workflow automation" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Game Development" },
+    { "name": "Network infrastructure" },
+    { "name": "Digital Photography & Videography" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "Python",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL",
+        "C/C++" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Tools & Platforms",
+      "keywords": ["Git/GitHub",
+        "SharePoint",
+        "E-Builder",
+        "Microsoft 365",
+        "Google Workspace",
+        "Onshape",
+        "Raspberry Pi",
+        "Linux"
+ ]
+    },
+    {
+      "name": "Networking",
+      "keywords": [
+        "Aruba APs",
+        "Cisco switches",
+        "Airwave",
+        "Etherscope",
+        "LinkRunner"
+ ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2028)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2024-08-26",
       "endDate": "Present",
-      "courses": [
+       "gpa": "3.53",
+      "courses": [  
+        "ICS 211 - Introduction to Computer Science II",
+        "ICS 212 - Program Structure",
+        "ICS 141 - Discrete Mathematics for Computer Science I",
+        "ICS 241 - Discrete Mathematics for Computer Science II",
+        "ICS 311 - Algorithms",
+        "ICS 314 - Software Engineering I",
+        "ICS 355 - Security and Trust I",
+        "MATH 242 - Calculus II",
+        "MATH 307 - Linear Algebra and Differential Equations"
       ]
+    },
+    {
+      "institution": "Kapolei High School, Kapolei, HI",
+      "area": "Valedictorian, Class of 2024",
+      "studyType": "High School Diploma",
+      "startDate": "2020-08-17",
+      "endDate": "2024-05-24",
+      "courses": []
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Hawaii Department of Transportation, Harbors Division",
+      "position": "Student Intern I - AI Process Automation",
+      "website": "https://hidot.hawaii.gov/harbors/",
+      "startDate": "2026-05-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "AI-assisted automation for construction management workflows",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Built a Construction Management Audit Tracker that extracts and reformats contract data across all filetypes, cutting review of 55 contracts (3,000 files) from 11 hours by hand to roughly 28 minutes",
+        "Selected as a featured student presenter for the Harbors Division at the HDOT Intern Recognition Summit, presenting a 7-intern team project on AI-assisted construction management; earned a return offer for Fall 2026"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "University of Hawaii at Manoa, ResNet",
+      "position": "ResNet Support Specialist",
+      "website": "https://www.hawaii.edu/its/",
+      "startDate": "2025-04-01",
+      "endDate": "2026-09-01",
+      "summary": "Residential network support and infrastructure maintenance",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Developed an automated, real-time service request monitoring system in Python on a Raspberry Pi, polling an API for status data and toggling USB port power via uhubctl to drive LED indicators",
+        "Diagnosed network connectivity issues using Etherscope, LinkRunner, and the Airwave management platform",
+        "Maintained Aruba 535 APs and Cisco/Aruba switches, performing manual bootstrapping over serial console to restore service",
+        "Managed the technical and customer support lifecycle through the Pilikia ticketing system, coordinating with supervisors and end users on wired and wireless incidents"
+      ]
+    },
+    {
+      "company": "FRC Team 2445, Kapolei High School",
+      "position": "Robotics Junior Programmer",
+      "website": "https://www.thebluealliance.com/team/2445",
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "summary": "Competition robotics software",
+      "highlights": [
+        "Co-developed a Java (WPILib) swerve drive system with NEO motors and Spark Max controllers, tuning PID and feedforward loops via SysID",
+        "Programmed autonomous routines using PathPlanner and Limelight vision",
+        "Maintained the team's GitHub repository and inline documentation"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
+      "organization": "LazuNight Funkin'",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "Director",
+      "startDate": "2021-12-01",
+      "endDate": "2022-05-01",
+      "summary": "Volunteer rhythm game project built in partnership with the LazuLight Anniversary Web Development Team",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Directed a 12-person volunteer team of programmers, artists, and composers through a six-month build cycle, scaling up from a 3-person prototype",
+        "Produced a trailer that secured an official partnership with the LazuLight Anniversary Web Development Team",
+        "Coordinated an on-schedule launch and marketing effort, reaching 26,000+ views, 2,200+ downloads, and 600+ likes"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Chan Scholarship for Information and Computer Sciences",
+      "date": "2026",
+      "awarder": "University of Hawaii Foundation / UH Manoa Department of Information and Computer Sciences",
+      "summary": "Donor-endowed scholarship restricted to students in the Information and Computer Sciences department, awarded through the competitive UH Manoa STAR scholarship application."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Featured Student Presenter",
+      "date": "2026",
+      "awarder": "Hawaii Department of Transportation Intern Recognition Summit",
+      "summary": "Selected to represent the Harbors Division, presenting a 7-intern team project on AI-assisted construction management."
+    },
+    {
+      "title": "Valedictorian, Class of 2024",
+      "date": "2024-05-24",
+      "awarder": "Kapolei High School",
+      "summary": "Graduated first in the Class of 2024."
     }
   ],
   "references": [
