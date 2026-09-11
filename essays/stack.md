@@ -58,7 +58,7 @@ In this poster's defense, he at least provided his entire code for people to tes
 
 ## The "smart" way to ask a question
 
-On the other hand, StackOverflow is usually strict with their guidelines regarding the submissions of people's questions and concerns regarding their code. So, it was easy to find a [smart question]:
+On the other hand, StackOverflow is usually strict with their guidelines regarding the submissions of people's questions and concerns regarding their code. So, it was easy to find a [smart question](https://stackoverflow.com/questions/65482702/why-is-my-for-loop-not-working-or-is-it-something-else-that-is-causing-problems):
 
 ```
 Q: My question is not about the result of my function or loop being correct. It is about my loop not working no matter what I do.
