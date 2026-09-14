@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/resnet/R.jpg
+image: img/R.jpg
 title: "ResNet Service Monitor" 
 date: 2025
 published: true
@@ -14,7 +14,7 @@ summary: "A Raspberry Pi that turns open ResNet service requests into physical L
 ---
 
 <div class="text-center p-4">
-  <img src="../img/resnet/rasp.jpg" class="img-thumbnail >
+  <img src="../img/rasp.jpg" class="img-thumbnail >
 </div>
 
 ResNet is the team that keeps wired and wireless internet service running in UH Mānoa's student housing. Requests come in through the Pilikia ticketing system, and as a Support Specialist my job was to go out and resolve them. In practice that meant a browser tab I refreshed between tasks, which is a poor way to catch a ticket when I am not at the desktop. Most of the job is spent away from it.
