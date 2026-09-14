@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: img/resnet/resnet-square.png
-title: "ResNet Service Monitor"
+image: img/resnet/R.jpg
+title: "ResNet Service Monitor" 
 date: 2025
 published: true
 labels:
@@ -14,40 +14,24 @@ summary: "A Raspberry Pi that turns open ResNet service requests into physical L
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/resnet/resnet-pi.png" class="img-thumbnail" >
-  <img width="200px" src="../img/resnet/resnet-lamps.png" class="img-thumbnail" >
-  <img width="200px" src="../img/resnet/resnet-terminal.png" class="img-thumbnail" >
+  <img src="../img/resnet/rasp.jpg" class="img-thumbnail >
 </div>
 
-ResNet is the team that keeps wired and wireless service running in UH Mānoa's student housing. Requests come in through the Pilikia ticketing system, and as a Support Specialist my job was to notice them and act. In practice that meant a browser tab I refreshed between tasks, which is a poor way to catch the one ticket that says a whole floor has no internet.
+ResNet is the team that keeps wired and wireless internet service running in UH Mānoa's student housing. Requests come in through the Pilikia ticketing system, and as a Support Specialist my job was to go out and resolve them. In practice that meant a browser tab I refreshed between tasks, which is a poor way to catch a ticket when I am not at the desktop. Most of the job is spent away from it.
 
-So I built a Raspberry Pi that watches the queue for me. On an interval it authenticates to the ticketing API, pulls the open requests, and counts them by status. Each status maps to a physical indicator on the desk: a new request lights one lamp, a request waiting on a user lights another, an escalated request lights a third. Walk into the office and the state of the queue is visible before anyone logs in.
+There was a small Christmas tree sitting on the desk. My supervisor told me it was meant to solve exactly that problem. A student worker had built it years earlier, it had been broken for a while, and according to him no student employee since then had gotten it working again. All I knew going in was that it involved a Raspberry Pi and our ticketing system. I had not used either one. I was also the only student worker in the office at the time, so this was something I wroked on between tickets rather than sat down with.
 
-<hr>
-
-The indicators are not wired to GPIO. They are ordinary USB lamps plugged into a powered hub, and the Pi controls them with [uhubctl](https://github.com/mvp/uhubctl), which toggles power to individual hub ports over the command line. The whole control layer is one function:
-
-<pre>
-def set_port(port, state):
-    subprocess.run(
-        ["uhubctl", "-l", HUB, "-p", str(port), "-a", state],
-        check=True, capture_output=True,
-    )
-
-def refresh(session):
-    counts = poll_status(session)
-
-    for status, port in PORT_MAP.items():
-        desired = "on" if counts.get(status, 0) &gt; 0 else "off"
-        set_port(port, desired)
-
-    return counts
-</pre>
-
-The script runs as a systemd service, so it survives reboots and restarts itself if the API times out. Failed polls leave the lamps in their last known state and log the error rather than blanking everything, which would look identical to an empty queue.
+Most of the work was reading whatever documentation was left on our employee site and rebuilding it from scratch in Python.
 
 <hr>
 
-The tradeoff is that USB power switching is slower and coarser than GPIO. You get on and off, nothing in between, and a port takes a moment to settle after toggling. In exchange, adding an indicator means plugging in another lamp and adding a line to <code>PORT_MAP</code>, with no soldering and nothing to break when the desk gets rearranged.
+What it does: on an interval it checks Pilikia for open requests, then checks the message logs to see whether anyone has responded to them yet. If a request is sitting there unanswered, the tree lights up. If a ticket had been replied to, it stays dark. The point is that I can tell the state of the queue from across AND outside the room instead of from the monitor in a small tab.
 
-Source: <a href="https://github.com/chicco-m/resnet-monitor"><i class="large github icon "></i>chicco-m/resnet-monitor</a>
+The tree plugs straight into a powered USB hub. The Pi turns it on and off with uhubctl, a tool that cuts power to individual USB ports from the command line. That was the part I was not sure would work, since it means controlling the tree by killing power to a USB port rather than wiring anything directly. It does mean you only get on and off with nothing in between, but there is nothing to solder and nothing to redo when the desk gets rearranged.
+
+The tree lit up again for the first time in years after I pushed the code. That was the most satisfying part of the project, of course.
+
+<hr>
+
+The code is stored locally at my old Office and on the ResNet servers rather than on GitHub, so there is no public repository for this one.
+
