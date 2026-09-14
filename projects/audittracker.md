@@ -12,7 +12,7 @@ labels:
 summary: "An AI-assisted pipeline that condenses contract audits for the HDOT Harbors Division from 11 hours to about 28 minutes."
 ---
 
-<img class="img-fluid" src="../img/hdot/hdot-header.png">
+<img class="img-fluid" src="../img/hdot/AuditTrackerHeader.jpg">
 
 As an AI Process Automation intern at the Hawaii Department of Transportation Harbors Division, I was handed a recurring chore: auditing construction management contracts meant opening every file attached to every contract and copying the relevant fields into a tracker by hand. Across 55 contracts and roughly 3,000 files, one pass took about 11 hours.
 
