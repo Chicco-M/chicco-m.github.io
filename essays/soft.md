@@ -11,6 +11,9 @@ labels:
   - Goals
 ---
 
+<img class="rounded float-start pe-4" src="../img/makati.jpg">
+
+
 ## My first exposure to IT
 
 My first introduction to any form of SWE/IT/White collar work was through my dad. He would take me on his journey to work back when I used to live in the Philippines, and seeing the stark contrast in staying inside an air-conditioned, sterile office space with desktop monitors was an incredible experience for me. This was especially apparent to me because me and my family had lived in the province, where we would be classified as a lower class family. My Dad would walk me through his work day and take me out to lunch, while also allowing me to play video games on his desktop! Unironically I would be out there grinding some WarCraft 3: The Frozen Throne, leaving a lasting impression on me to pursue a career similar to his. Since then, I would take every opportunity at school to learn about anything IT or CS related, with my first steps at joining a webdev club in middle school. Small time work, but the first project I ever created was an OverWatch Lootbox store with different colored cases at absurd prices. Good times. 
