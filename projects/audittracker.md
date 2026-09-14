@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/hdot/hdot-square.png
+image: img/hdot/05_red_poster.png
 title: "Construction Management Audit Tracker"
 date: 2026
 published: true
