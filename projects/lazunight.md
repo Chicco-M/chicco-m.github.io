@@ -9,7 +9,7 @@ labels:
   - Game Development
   - Project Management
   - Psych Engine
-summary: "A rhythm game I coordinated with a twelve-person volunteer team."
+summary: "A rhythm game I developed with a twelve-person volunteer team."
 ---
 
 <img class="img-fluid" src="../img/lazunight-header1.jpg">
