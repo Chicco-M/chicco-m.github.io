@@ -12,7 +12,7 @@ labels:
   - ICS 314
 ---
 
-<img class="rounded float-start pe-4" src="..img\vscode-logo.png">
+<img class="rounded float-start pe-4" src="..img/vscode-logo.png">
 <!-- Indeed, I believe some coding standards can actually help you learn a programming language. Do you agree? -->
 
 <!-- After your first week of using ESLint with VSCode, what are your impressions? Are you finding that getting rid of all the ESLint errors is painful, or useful, or both, or something else entirely? -->
