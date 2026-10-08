@@ -12,7 +12,7 @@ labels:
   - ICS314
 ---
 
-<img class="rounded float-start pe-4" src="../img/FakeSite.png">
+<img class="img-fluid rounded mb-3" src="../img/FakeSite.png">
 This image is a webpage I made using Bootstrap 5.
 
 ## Initial thoughts on Bootstrap 5
