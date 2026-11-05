@@ -1,12 +1,13 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Proposal"
+title: "Final Project Idea"
 # All dates must be YYYY-MM-DD format!
 date: 2026-11-04
 published: true
 labels:
-  - Academic Advising
+  - Software Engineering
+  - Nextjs
   - AI Assistant
   - Campus Community
   - ICS 314
@@ -17,7 +18,7 @@ labels:
 **Proposers:**
 
 - Chicco Ray Marquez (chicco@hawaii.edu)
-- Rocky Balboa (rocky99@hawaii.edu)
+- Rocky Acasio (rocky99@hawaii.edu)
 - Rodemar Cadiz (rcadiz24@hawaii.edu)
 
 ## Overview
